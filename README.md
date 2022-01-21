@@ -26,13 +26,15 @@ The admin should be able to change his password if he wants, he should be able t
 ● Browse the list of users who have signed up and be able to search users
 ● See purchase reports filtered by date and category
 
+
 Project Structure
+
 This project uses Spring Boot for Model and Controller Implementation Availaible apis are -
 
-/shoe (CRUD)
-/purchaseReport (CRUD)
-/shoe/all
-/purchaseReport/(category|all|dop)
+1./shoe (CRUD)
+2./purchaseReport (CRUD)
+3./shoe/all
+4./purchaseReport/(category|all|dop)
 Current Implementation relies simply on String for storing order list.
 
 It can be extended to utilize many-to-many relationship b/w Shoe and PurchaseReport Entities.
